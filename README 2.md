@@ -1,7 +1,10 @@
 # README
+Commands to get CitySlickrz running: 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+npm install -prefix client 
+bundle install 
+npm start -prefix client 
+rails s 
 
 Things you may want to cover:
 

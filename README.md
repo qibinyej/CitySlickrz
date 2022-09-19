@@ -1,4 +1,10 @@
 # React/Rails Project Setup Guide
+Cityslickrz is a web application using React.js, and Ruby on Rails that will exist to allow a user to rate cities based on key criteria and experience. Users will be able to:
+        -Create a profile that includes key metrics (picture, hometown, etc)
+        -Access an interactive map where they can rate a city based off experience. 
+        -Comment or interact with other users, based on their ratings or experiences in that city
+
+
 
 ## Learning Goals
 
