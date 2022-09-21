@@ -1,6 +1,6 @@
 // import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
-import Login from './Login';
+import Login from './login';
 import Navbar from './Navbar';
 
 function App() {
