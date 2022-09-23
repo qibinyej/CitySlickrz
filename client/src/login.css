@@ -21,3 +21,7 @@
     width: 45%;
     backdrop-filter: blur(6px)
 }
+
+#input{
+    outline: none;
+}
