@@ -1,45 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
 
 
-#login-parent{
-    width:100%;
-    height:100%;
+#login-parent {
+    width: 100%;
+    height: 100%;
 }
 
-#login-backgound-vid{
+#login-backgound-vid {
     width: 100vw;
     height: 100vh;
     z-index: -1;
 }
 
-#login-credentials-div{
+#login-credentials-div {
     position: absolute;
     top: 30%;
     left: 27%;
     right: 20%;
     background-color: rgba(247, 244, 244, 0.368);
-    color: rgba(252, 252, 252, 0.781);
+    color: rgba(255, 255, 255, 0.781);
     border-radius: 15px;
     height: 45%;
     width: 45%;
     backdrop-filter: blur(6px);
-    /* text-align: center;
-    align-items: center; */
+    text-align: center;
+    align-items: center;
+
 }
 
-#input{
-   border: none; 
-   outline: none;
-   height: 25px;
-   width: 220px;
-   position: relative; 
-   display:inline-block;
-   margin: 20px;
-   top: 80px;
-   left: 50px;
+#input {
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 220px;
+    left: 50px;
+    position: relative;  
+    display:inline-block;
+    margin: 20px;
+    top: 80px;
+    left: 50px;
 }
 
-#siteTitle{
+#siteTitle {
     font-family: 'Dokdo', cursive;
     margin: 0;
     padding: 0;
@@ -47,14 +49,14 @@
     left: 50px;
 }
 
-#submit-btn{
+#submit-btn {
     height: 30px;
     width: 100px;
-    border: none; 
+    border: none;
     outline: none;
     border-radius: 25px;
-    background-color:rgb(83, 175, 255);
-    position:relative;
+    background-color: rgb(83, 175, 255);
+    position: relative;
     color: white;
     font-size: 18px;
     top: 150px;
