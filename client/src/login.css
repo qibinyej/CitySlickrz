@@ -12,13 +12,12 @@
 #login-credentials-div{
     position: absolute;
     top: 30%;
-    left: 25%;
+    left: 27%;
     right: 20%;
     background-color: rgba(247, 244, 244, 0.368);
     color: rgba(252, 252, 252, 0.781);
     border-radius: 15px;
-    line-height: 1px;
     height: 45%;
-    width: 50%;
+    width: 45%;
     backdrop-filter: blur(6px)
 }
