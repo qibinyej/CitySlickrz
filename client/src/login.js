@@ -20,8 +20,8 @@ function Login() {
                         {/* https://player.vimeo.com/external/370845105.sd.mp4?s=b9419e54cff17ff6aec0f50e194d3e4e92a06129&profile_id=164&oauth2_token_id=57447761 */}
                         <div id="login-credentials-div">
                         <form>
-                                <input placeholder="Username"></input>
-                                <input placeholder="Password" type="password"></input>
+                                <input required id="input" placeholder="Username"></input>
+                                <input required id="input" placeholder="Password" type="password"></input>
                         </form>
                         </div>
                 </div>
