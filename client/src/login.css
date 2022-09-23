@@ -7,3 +7,10 @@
     width: 100vw;
     height: 100vh;
 }
+
+#login-credentials-div{
+    height:300px;
+    width: 450px;
+    background-color: aquamarine;
+
+}
