@@ -8,8 +8,7 @@ function Navbar() {
 
     return (<nav id="nav">
         <ul id="nav-ul">
-            <li id="nav-li"><Link to="/login">Home</Link></li>
-
+            <li id="nav-li"><Link to="/">Login</Link></li>
             <li id="nav-li"><Link>route 1</Link></li>
             <li id="nav-li"><Link>route 2</Link></li>
             <li id="nav-li"><Link>route 3</Link></li>
