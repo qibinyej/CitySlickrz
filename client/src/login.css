@@ -6,11 +6,19 @@
 #login-backgound-vid{
     width: 100vw;
     height: 100vh;
+    z-index: -1;
 }
 
 #login-credentials-div{
-    height:300px;
-    width: 450px;
-    background-color: aquamarine;
-
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    right: 20%;
+    background-color: rgba(247, 244, 244, 0.368);
+    color: rgba(252, 252, 252, 0.781);
+    border-radius: 15px;
+    line-height: 1px;
+    height: 45%;
+    width: 50%;
+    backdrop-filter: blur(6px)
 }
