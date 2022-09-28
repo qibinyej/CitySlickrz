@@ -31,14 +31,17 @@
 #input {
     border: none;
     outline: none;
-    height: 25px;
+    height: 35px;
     width: 220px;
     left: 50px;
     position: relative;  
     display:inline-block;
     margin: 20px;
-    top: 80px;
+    top: 70px;
     left: 50px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
 }
 
 #siteTitle {
@@ -50,17 +53,18 @@
 }
 
 #submit-btn {
-    height: 30px;
-    width: 100px;
+    height: 35px;
+    width: 110px;
     border: none;
     outline: none;
     border-radius: 25px;
-    background-color: rgb(83, 175, 255);
+    background-color: rgb(152, 126, 255);
     position: relative;
     color: white;
     font-size: 18px;
     top: 150px;
-    right: 260px;
+    right: 270px;
     cursor: pointer;
+    font-size: 18px;
 
 }
