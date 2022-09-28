@@ -59,7 +59,7 @@
     border: none;
     outline: none;
     border-radius: 25px;
-    background-color: rgb(152, 126, 255);
+    background-color: rgb(78, 0, 246);
     position: relative;
     color: white;
     font-size: 18px;
@@ -68,4 +68,9 @@
     cursor: pointer;
     font-size: 18px;
 
+}
+
+ #submit-btn:hover{
+    background-color: rgb(0, 181, 181);
+  
 }
