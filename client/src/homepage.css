@@ -1,0 +1,18 @@
+
+
+.home-page{
+    background-color: blue;
+width: 500px;
+height: 100%;
+align-items: center;
+}
+
+#welcome{
+    background-color: blueviolet;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}

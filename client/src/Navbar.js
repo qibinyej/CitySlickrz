@@ -11,7 +11,7 @@ function Navbar() {
 
         <ul id="nav-ul">
             <li id="nav-li"><Link to="/">Login</Link></li>
-            <li id="nav-li"><Link>route 1</Link></li>
+            <li id="nav-li"><Link to="home">Home</Link></li>
             <li id="nav-li"><Link>route 2</Link></li>
             <li id="nav-li"><Link>route 3</Link></li>
             <li id="nav-li"><Link>route 4</Link></li>
