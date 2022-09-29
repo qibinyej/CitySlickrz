@@ -2,9 +2,8 @@
 import { Routes, Route } from "react-router-dom";
 import Login from './login';
 import Navbar from './Navbar';
-import { useState, useEffect } from "react"
 import Cities from "./Cities";
-
+import Profile from "./Profile";
 function App() {
 
   // sample fetch, still uncertain about where the keys go 
@@ -31,6 +30,7 @@ function App() {
         <Routes>
         <Route path='/' element={<Login/>} />
         <Route path='/cities' element={<Cities/>} />
+        <Route path='/profile' element={<Profile/>}  />
         </Routes>
       </div>
  
