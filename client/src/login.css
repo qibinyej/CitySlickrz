@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&family=Sedgwick+Ave+Display&display=swap');
 
 
 #login-parent {
@@ -45,12 +46,12 @@
 }
 
 #siteTitle {
-    font-family: 'Dokdo', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
     margin: 0;
     padding: 0;
     font-size: 65px;
     left: 50px;
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 #submit-btn {
@@ -59,7 +60,7 @@
     border: none;
     outline: none;
     border-radius: 25px;
-    background-color: rgb(78, 0, 246);
+    background-color: rgb(117, 3, 255);
     position: relative;
     color: white;
     font-size: 18px;
@@ -71,6 +72,6 @@
 }
 
  #submit-btn:hover{
-    background-color: rgb(0, 181, 181);
-  
+    background-color: rgb(189, 145, 255);
+    
 }
