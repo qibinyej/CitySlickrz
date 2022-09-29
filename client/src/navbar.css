@@ -1,7 +1,7 @@
 
 
  #nav {
-     display: flex;
+    display: flex;
     justify-content: space-between;
     height: 55px;
     align-items: center;
@@ -11,9 +11,9 @@
     position: fixed; 
     width: 100%;
     top: 0; 
-     z-index: 1000;  
+    z-index: 1000;  
     
-   }
+  }
   
    #nav-ul {
     list-style: none;
