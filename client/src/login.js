@@ -19,7 +19,7 @@ function Login() {
                         {/* https://player.vimeo.com/progressive_redirect/playback/712741455/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=1d32f61a841a2f36d5d2524755d5e38b4ca2c2964089ca5edeeb5d4db1b062a8 */}
                         {/* https://player.vimeo.com/external/370845105.sd.mp4?s=b9419e54cff17ff6aec0f50e194d3e4e92a06129&profile_id=164&oauth2_token_id=57447761 */}
                         <div id="login-credentials-div">
-                        <h1 id="siteTitle">CitySlickrZ</h1>
+                        <h1 id="siteTitle">CitySlickrz</h1>
                         <form>
                                 <input required id="input" placeholder="Username"></input>
                                 <input required id="input" placeholder="Password" type="password"></input>
