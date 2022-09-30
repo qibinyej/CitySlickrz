@@ -13,7 +13,6 @@ margin-top: 7%;
 #welcome{
     display:flex;
     position:absolute;
-    
     justify-content: center;
     align-items: center;
     border-style: dotted;
@@ -51,11 +50,11 @@ margin-top: 7%;
 }
 
 #home-photo{
-    border-radius: 10px;
+border-radius: 10px;
 position:absolute;
 opacity: 80%;
 height: 700px;
-width: 150vh;
+width: 140vh;
 justify-content: center;
 align-items: center;
 }
