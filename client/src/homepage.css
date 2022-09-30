@@ -51,11 +51,12 @@ margin-top: 7%;
 }
 
 #home-photo{
-opacity: 70%;
+    border-radius: 10px;
+position:absolute;
+opacity: 80%;
 height: 700px;
-width: 180vh;
+width: 150vh;
 justify-content: center;
 align-items: center;
-
 }
 
