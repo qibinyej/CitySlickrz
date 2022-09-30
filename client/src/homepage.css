@@ -21,6 +21,7 @@ margin-top: 7%;
     width: 50%;
     height: 50px;
     padding-top: 30px;
+    z-index: 100;
 }
 
 .city-container{
@@ -31,6 +32,8 @@ margin-top: 7%;
     background-color: #3e2723;
     padding: 10px;
     border-radius: 10px;
+    opacity: 88%;
+    
 
     margin-top: 100px;
     position:absolute;
@@ -39,8 +42,8 @@ margin-top: 7%;
 }
 
 .city-container > div{
-    background-color: #80cbc4;
-    border: 1px solid #fff;
+    background-color: #80cbc3d9;
+    border: 1px solid rgba(255, 255, 255, 0.835);
     padding: 40px;
     font-size: 30px;
     text-align:center;
