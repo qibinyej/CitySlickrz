@@ -12,7 +12,7 @@ margin-top: 7%;
 
 #welcome{
     display:flex;
-    position:relative;
+    position:absolute;
     
     justify-content: center;
     align-items: center;
@@ -51,8 +51,8 @@ margin-top: 7%;
 }
 
 #home-photo{
-opacity: 80%;
-height: 1000px;
+opacity: 70%;
+height: 700px;
 width: 180vh;
 justify-content: center;
 align-items: center;

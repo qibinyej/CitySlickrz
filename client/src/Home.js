@@ -7,15 +7,17 @@ function Home(){
 return (
 <div className="home-page">
     <div id="welcome">
-        <h1>
+    
+       <h1>
         Welcome City Slickr!
         </h1>
-        <img id="home-photo" src="https://photostorage.explorest.com/usa/hawaii/vlim-mai-poina-palmtree-feed.jpg">
-            
-        </img>
+        
+       
     </div>
+    <img id="home-photo" src="https://photostorage.explorest.com/usa/hawaii/vlim-mai-poina-palmtree-feed.jpg"></img>
     
     <div className="city-container">
+        
         <div class="city1">City 1</div>
         <div class="city2">City 2</div>
         <div class="city3">City 3</div>
