@@ -12,7 +12,15 @@ function App() {
 
   
   // useEffect(() => {
-  //   fetch("https://api.roadgoat.com/api/v2/destinations/:id")
+  // const url = "https://api.roadgoat.com/api/v2/destinations/:id"
+  // fetch(url,{
+  //   method: "GET",
+  //   withcCredentials: true,
+  //   headers: {
+  //   access_key: 59ee86bd208094c9fc0faabcb86871a7
+  //   secret_key: 1d6a1043f5f09a7c48dd43ccf156d14e
+  //   }
+  // })
   //   .then(r => r.json())
   //   .then(data => {
   //     setData(data)
