@@ -11,7 +11,7 @@ return (
         Welcome City Slickr!
         </h1>
     </div>
-    <img id="home-photo" src="https://photostorage.explorest.com/usa/hawaii/vlim-mai-poina-palmtree-feed.jpg"></img>
+    <img id="home-photo" alt="home-pic" src="https://photostorage.explorest.com/usa/hawaii/vlim-mai-poina-palmtree-feed.jpg"></img>
     {/* Possible Homepage top 10 US cities to live in. Have a hover, bounce effect, etc. */}
     <div className="city-container">
         <div class="city1">City 1</div>
