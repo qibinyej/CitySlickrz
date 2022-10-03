@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Cities from "./Cities";
 import Profile from "./Profile";
 import Home from "./Home";
+
 function App() {
 
   // sample fetch, still uncertain about where the keys go 
@@ -26,6 +27,24 @@ function App() {
   //     setData(data)
   //   })
   // }, [])
+
+// const net = require('follow-redirects').https;
+// const fs = require('fs');
+// const auth_key = Buffer.from('access_key:secret_key').toString('base64');
+
+// var options = {
+//   'method': 'GET',
+//   'hostname': 'api.roadgoat.com',
+//   'port': 80,
+//   'path': '/api/v2/destinations/auto_complete?q=barcelona',
+//   'headers': {
+//     'Authorization': `Basic ${auth_key}`
+//   },
+//   'maxRedirects': 20
+// };
+
+// var req = net.request(options, function (res) {
+//   var chunks = [];
   
   
   
@@ -47,6 +66,6 @@ function App() {
       </div>
  
   );
-}
+};
 
 export default App;
