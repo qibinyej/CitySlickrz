@@ -14,7 +14,7 @@ function App() {
   const auth_key = Buffer.from('59ee86bd208094c9fc0faabcb86871a7:1d6a1043f5f09a7c48dd43ccf156d14e').toString('base64')
 
   useEffect(() => {
-  const url = `https://api.roadgoat.com/api/v2/destinations/:id`
+  const url = `https://api.roadgoat.com/api/v2/destinations/6588544`
   fetch(url,{
     method: "GET",
     withCredentials: true,
@@ -25,26 +25,10 @@ function App() {
     .then(r => r.json())
     .then(data => {
       setData(data)
+      console.log(data)
     })
-  }, [])
+  }, []);
 
-// const net = require('follow-redirects').https;
-// const fs = require('fs');
-// const auth_key = Buffer.from('access_key:secret_key').toString('base64');
-
-// var options = {
-//   'method': 'GET',
-//   'hostname': 'api.roadgoat.com',
-//   'port': 80,
-//   'path': '/api/v2/destinations/auto_complete?q=barcelona',
-//   'headers': {
-//     'Authorization': `Basic ${auth_key}`
-//   },
-//   'maxRedirects': 20
-// };
-
-// var req = net.request(options, function (res) {
-//   var chunks = [];
   
   
   
