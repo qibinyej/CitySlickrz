@@ -1,9 +1,12 @@
 import React from "react";
 import './login.css';
+import { useState } from "react";
+
 
 function Login() {
 
 
+const [signUp, setSignUp] = useState(false)
 
 
         return (
@@ -20,12 +23,16 @@ function Login() {
                         {/* https://player.vimeo.com/external/370845105.sd.mp4?s=b9419e54cff17ff6aec0f50e194d3e4e92a06129&profile_id=164&oauth2_token_id=57447761 */}
                         <div id="login-credentials-div">
                         <h1 id="siteTitle">CitySlickrz</h1>
+                        <h3 id="header">Don't have a profile? Sign Up </h3>
                         <form>
                                 <input required id="input" placeholder="Username"></input>
                                 <input required id="input" placeholder="Password" type="password"></input>
                                 <button id="submit-btn">Login</button>
+                                
                         </form>
+                     
                         </div>
+                        
                 </div>
         )
 

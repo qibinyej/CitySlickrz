@@ -8,7 +8,7 @@ import { Component } from "react"
 class Profile extends Component {
 
 state = {
-    profileImgEmpty:'https://pagesix.com/wp-content/uploads/sites/3/2018/09/gary-busey.jpg?quality=80&strip=all'
+    profileImgEmpty:'https://i1.sndcdn.com/artworks-000601335880-9f2iwn-t500x500.jpg'
 }
 
 
@@ -27,7 +27,7 @@ render(){
         <div id='profile-parent-div'>
   
                 <div id="container">
-                    <h1 id="heading">Add your Image</h1>
+                    <h1 id="heading"> Add a profile picture</h1>
                     <div id="imgHolder">
                         <img src={profileImgEmpty} alt="img" id="img"></img>
                     </div>
