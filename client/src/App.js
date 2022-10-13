@@ -8,6 +8,19 @@ import Home from "./Home";
 
 function App() {
 
+// sets user state to persist for session
+  const [user, setUser] = useState("")
+
+  // user session persist site wide (no reload)
+  useEffect(() => {
+    fetch("/me").then((response) => {
+      if (response.ok) {
+        response.json().then((user) => setUser(user));
+      }
+    });
+  }, []);
+
+
   // sample fetch, still uncertain about where the keys go 
   const [data, setData] = useState([])
 

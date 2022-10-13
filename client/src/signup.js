@@ -1,11 +1,11 @@
 import React from 'react'
-
-function signup() {
-
-
+// import { useState } from 'react';
+// import { useNavigate } from 'react-router-dom';
 
 
+function Signup() {
 
+  
 
 
 
@@ -18,11 +18,11 @@ function signup() {
                         <strong>X</strong>
                     </button>
                     <form>
-                        <input></input>
-                        <input></input>
-                        <input></input>
-                        <input></input>
-                        <input></input>
+                        <input placeholder='First name'></input>
+                        <input placeholder='Last name'></input>
+                        <input placeholder='Email'></input>
+                        <input placeholder='Password'></input>
+                        <input placeholder='Location'></input>
                     </form>
                 </div>
             </div>
@@ -31,4 +31,4 @@ function signup() {
     )
 }
 
-export default signup
+export default Signup
