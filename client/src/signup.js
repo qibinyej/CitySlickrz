@@ -3,7 +3,7 @@ import React from 'react'
 // import { useNavigate } from 'react-router-dom';
 
 
-function Signup() {
+function Signup( {openSignUp, closeSignUp }) {
 
   
 
