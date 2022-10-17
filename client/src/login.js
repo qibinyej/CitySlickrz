@@ -14,7 +14,7 @@ function Login() {
 
         return (
                 <div id="login-parent">
-                        {openSignUp && <Signup signUp={ openSignUp } closeSignUp ={ setOpenSignUp }/>}
+                        {openSignUp && <Signup openSignUp={ openSignUp } closeSignUp ={ setOpenSignUp }/>}
                         <video id="login-backgound-vid" loop autoPlay muted>
                                 <source src="https://player.vimeo.com/progressive_redirect/playback/712741455/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=1d32f61a841a2f36d5d2524755d5e38b4ca2c2964089ca5edeeb5d4db1b062a8" type="video/mp4"></source>
                         </video>
